@@ -7,10 +7,10 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
   ],
-  experimental: {
-    reactivityTransform: true,
-    viteNode: true,
-  },
+  // experimental: {
+  //   reactivityTransform: true,
+  //   viteNode: true,
+  // },
   unocss: {
     preflight: true,
   },

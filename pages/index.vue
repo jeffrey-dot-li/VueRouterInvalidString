@@ -1,14 +1,10 @@
 <template>
+<div>
+  
+<div w-50%>The router will fail when clicking Back on the next page. Remove `w-50%` to make the router work again. The `%` is invalid string for the vue router.</div>
   <div>
-    <Logos mb-6 />
-    <Suspense>
-      <PageView />
-      <template #fallback>
-        <div op50 italic>
-          <span animate-pulse>Loading...</span>
-        </div>
-      </template>
-    </Suspense>
-    <InputEntry />
+  <NuxtLink to="/demo">GO</NuxtLink>
   </div>
+
+</div>
 </template>
